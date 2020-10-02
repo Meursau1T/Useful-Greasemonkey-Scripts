@@ -27,7 +27,6 @@
         XMLHttpRequest.prototype.open = function() {
             this.addEventListener("readystatechange", function() {
                 deleteAns();
-                console.log('done');
             }, false);
             open.apply(this, arguments);
         };
